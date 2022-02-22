@@ -13,3 +13,49 @@
   display: table;
 }
 
+#barra-inferiore-fissa {
+  position: fixed;
+  height: 96px;
+  background-color: #282828;
+  width: 100%;
+  bottom: 0px;
+}
+
+#parte-superiore {
+  height: calc(100vh - 96px);
+  width: 100%;
+  display: flex;
+  overflow: auto;
+}
+
+#insieme {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+}
+
+#barra-laterale {
+  width: 300px;
+  background-color: black;
+  font-size: 4em;
+}
+
+#parte-destra {
+  width: calc(100% - 300px);
+  display: flex;
+  flex-direction: column;
+}
+
+#barra-superiore {
+  height: 96px;
+  width: 100%;
+  background-color: #080B12;
+}
+
+#corpo {
+  width: 100%;
+  background-color: #141922;
+  height: 100%;
+  font-size: 4em;
+  color: white;
+}

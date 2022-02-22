@@ -8,12 +8,7 @@
         width: 50px;
         }
 
-        #barra-superiore {
-        width: calc(100% - 50px);
-         }
-
-
-         #corpo-centrale {
+        #parte-destra {
         width: calc(100% - 50px);
         }
 
