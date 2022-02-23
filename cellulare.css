@@ -4,13 +4,7 @@
             background-color: red;
         }
         
-        #barra-laterale {
-        width: 50px;
-        }
-
-        #parte-destra {
-        width: calc(100% - 50px);
-        }
+      
 
         
         
