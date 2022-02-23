@@ -1,0 +1,23 @@
+@media screen and (min-width: 553px)  {
+ 
+    body {
+        background-color: rgb(98, 0, 255); 
+    }
+    
+    .unita-barra-laterale:hover {
+  padding: 6px 0px 6px 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-left: 4px solid rgb(15, 255, 35);
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+}

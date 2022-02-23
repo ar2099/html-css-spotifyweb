@@ -88,7 +88,7 @@ html {
 }
 .contenitore-barra-laterale {
   margin-bottom: 10px;
-  /* background-color: yellow; */
+  /* background-color: blue;  */
 }
 
 
@@ -97,11 +97,15 @@ html {
   margin-left: 20px;
 }
 
+#logo-cell {
+  display: none;
+}
+
 .unita-barra-laterale {
   padding: 5px 0px 5px 20px;
   color: gray;
   display: flex;
-  /* background-color: yellow;  */
+  /* background-color: yellow;   */
   align-items: center;
 
 }
@@ -112,15 +116,7 @@ html {
 
 }
 
-.unita-barra-laterale:hover {
-  padding: 6px 0px 6px 16px;
-  color: white;
-  display: flex;
-  align-items: center;
-  border-left: 4px solid rgb(15, 255, 35);
-  cursor: pointer;
-  
-}
+
 
 .icona-barra-laterale {
   font-size: 2em;
