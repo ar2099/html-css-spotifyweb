@@ -45,13 +45,12 @@ html {
 }
 
 #barra-laterale {
-  width: 300px;
+  width: 250px;
   background-color: black;
-  color: white;
 }
 
 #corpo {
-  width: calc(100% - 300px);
+  width: calc(100% - 250px);
   background-color: #141922;
   padding-top: 96px;
   overflow-y: auto;
@@ -61,7 +60,7 @@ html {
 
 #barra-superiore {
   position: fixed;
-  width: calc(100% - 300px);
+  width: calc(100% - 250px);
   height: 96px;
   background-color: rgba(0, 0, 0, 0.603);
   top: 0px;
@@ -73,24 +72,43 @@ html {
 #barra-laterale {
  display: flex;
  flex-direction: column;
+ padding-top: 15px;
 }
 
-.contenitore-barra-laterale {
-  margin-top: 15px;
-  background-color: yellow;
+
+
+#parte-inferiore-barra-laterale {
+  /* background-color: green; */
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+ 
 }
+.contenitore-barra-laterale {
+  margin-bottom: 10px;
+  /* background-color: yellow; */
+}
+
 
 #logo {
-  width: 180px;
-  margin-left: 15px;
+  width: 150px;
+  margin-left: 20px;
 }
 
 .unita-barra-laterale {
-  padding: 6px 0px 6px 20px;
+  padding: 5px 0px 5px 20px;
   color: gray;
   display: flex;
   /* background-color: yellow;  */
   align-items: center;
+
+}
+
+#barra-laterale h3 {
+  padding: 5px 0px 5px 20px;
+  color: white;
 
 }
 
@@ -110,6 +128,42 @@ html {
   /* background-color: red; */
 }
 
-.unita-barra-laterale span {
-  /* background-color: violet; */
+
+.icona-barra-laterale-playlist {
+  font-size: 3.5em;
+  margin-right: 8px;
+  /* background-color: red; */
+}
+
+.prima-unita-parte-inferiore-barra-laterale {
+  /* background-color: yellow;  */
+  padding: 0px 0px 8px 0px;
+  border-bottom: 2px solid grey;
+  color: grey;
+}
+
+.icona-parte-inferiore-barra-laterale {
+  margin-right: 5px;
+}
+
+.contenitore-parte-inferiore-barra-laterale {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 40px);
+}
+
+.seconda-unita-parte-inferiore-barra-laterale {
+  padding: 8px 0px 3px 0px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.2em;
+}
+
+.seconda-unita-parte-inferiore-barra-laterale img {
+  width: 1.6em;
+  height: 1.6em;
+  margin-right: 5px;
+  background-color: grey;
+  border-radius: 50%;
 }
