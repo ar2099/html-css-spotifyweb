@@ -5,6 +5,8 @@
     border: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .clearfix::after {
@@ -12,6 +14,14 @@
   clear: both;
   display: table;
 }
+
+html {
+  font-size: 12px;
+}
+
+/* ANCHOR MACROAREE  */
+
+/* L'eventuale utilizzo di flex nelle aree non è qui ma nella sezione specifica di ogni sezione */
 
 #schermata-app {
   height: 100vh;
@@ -58,3 +68,48 @@
   right: 0px;
 }
 
+/* ANCHOR BARRA LATERALE */
+
+#barra-laterale {
+ display: flex;
+ flex-direction: column;
+}
+
+.contenitore-barra-laterale {
+  margin-top: 15px;
+  background-color: yellow;
+}
+
+#logo {
+  width: 180px;
+  margin-left: 15px;
+}
+
+.unita-barra-laterale {
+  padding: 6px 0px 6px 20px;
+  color: gray;
+  display: flex;
+  /* background-color: yellow;  */
+  align-items: center;
+
+}
+
+.unita-barra-laterale:hover {
+  padding: 6px 0px 6px 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-left: 4px solid rgb(15, 255, 35);
+  cursor: pointer;
+  
+}
+
+.icona-barra-laterale {
+  font-size: 2em;
+  margin-right: 8px;
+  /* background-color: red; */
+}
+
+.unita-barra-laterale span {
+  /* background-color: violet; */
+}
