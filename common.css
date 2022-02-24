@@ -163,3 +163,24 @@ html {
   background-color: grey;
   border-radius: 50%;
 }
+
+/* BARRA SUPERIORE  */
+
+#barra-superiore {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+#barra-superiore a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  font-size: 1em;
+  padding: 6px 15px 6px 15px;
+  border: 2px solid white;
+  border-radius: 14px;
+  margin-right: 5px;
+  white-space: nowrap;
+}
