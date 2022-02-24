@@ -184,3 +184,35 @@ html {
   margin-right: 5px;
   white-space: nowrap;
 }
+
+
+/* ANCHOR BARRA INFERIORE */
+
+#barra-inferiore {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.blocco1-barra-inferiore {
+  height: 80%;
+  width: 22%;
+  background-color: orangered;
+  margin-left: 8px;
+}
+
+.blocco2-barra-inferiore {
+  height: 80%;
+  width: 46%;
+  background-color: orangered;
+}
+
+.blocco3-barra-inferiore {
+  height: 80%;
+  width: 22%;
+  background-color: orangered;
+  margin-right: 8px;
+}
+
+
