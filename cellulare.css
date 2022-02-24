@@ -1,7 +1,7 @@
 @media screen and (min-width: 0px) and (max-width: 552px) {
     
     /* ANCHOR MACROAREE  */
-    
+
         body {
             background-color: red;
         }
@@ -96,7 +96,72 @@
         margin-right: 0px;
         }
 
-        
+
+
+        /* ANCHOR BARRA INFERIORE  */
+
+        .b1-ba-in-container img {
+            width: 30px;
+            margin-right: 4px;
+            }
+
+            #b1-ba-in-container-testo-titolo {
+            font-size: 0.9em;
+            color: white;
+            font-weight: normal;
+            }
+
+            #b1-ba-in-container-testo-nome {
+                color: grey;
+                font-size: 0.8em;
+                }
+
+            .b1-ba-in-container.secondo {
+            font-size: 1em;
+            }
+
+            .bl2-ba-in-sopra {
+            font-size: 1.3em;  
+            }
+
+            .bl2-ba-in-sopra i {
+            margin-right: 5px;
+            }
+
+            .tempo-canzone {
+                display: none;
+            }
+
+            .bl2-ba-in-sotto {
+                width: 100%;
+                height: 45%;
+                /* background-color: blue; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                }
+
+                .blocco3-barra-inferiore {
+                    height: 80%;
+                    width: 25%;
+                    /* background-color: orangered; */
+                    margin-right: 4px;
+                    font-size: 1.2em;
+                    color: white;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    }
+
+                    #volume-canzone {
+                    min-width: 30px;
+                    }
+                    
+
+                    .cell-none {
+                        display: none;
+                    }
 
 
 
