@@ -197,9 +197,12 @@ html {
 
 .blocco1-barra-inferiore {
   height: 80%;
-  width: 22%;
-  background-color: orangered;
+  width: 17%;
+  /* background-color: orangered; */
   margin-left: 8px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .blocco2-barra-inferiore {
@@ -210,9 +213,42 @@ html {
 
 .blocco3-barra-inferiore {
   height: 80%;
-  width: 22%;
+  width: 17%;
   background-color: orangered;
   margin-right: 8px;
 }
 
+.b1-ba-in-container {
+  /* width: 48%; */
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+}
 
+.b1-ba-in-container img {
+  width: 50px;
+  margin-right: 8px;
+}
+
+#b1-ba-in-container-testo-titolo {
+  font-size: 1.1em;
+  color: white;
+  font-weight: bold;
+}
+
+#b1-ba-in-container-testo-nome {
+  color: grey;
+}
+
+.b1-ba-in-container.secondo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+  font-size: 1.5em;
+  color: grey;
+}
+
+.b1-ba-in-container.secondo i {
+  margin-right: 4px;
+}
