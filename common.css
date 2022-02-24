@@ -54,7 +54,6 @@ html {
   background-color: #141922;
   padding-top: 96px;
   overflow-y: auto;
-  font-size: 4em;
   color: white;
 }
 
@@ -331,4 +330,36 @@ font-size: 1.4em;
 
 .blocco3-barra-inferiore i {
   margin-right: 16px;
+}
+
+
+/* ANCHOR CORPO  */
+
+/* MENU SCELTA */
+
+.menu-scelta {
+  display: flex;
+  /* background-color: yellow; */
+  color: grey;
+  font-size: 1em;
+  justify-content: center;
+  align-items: baseline;
+  
+  flex-wrap: wrap;
+}
+
+.menu-scelta-illuminato {
+  width: 30px;
+  height: 5px;
+  margin-top: 4px;
+  background-color: greenyellow;
+}
+
+.unita-menu-scelta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 10px;
 }
