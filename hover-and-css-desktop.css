@@ -1,7 +1,7 @@
 @media screen and (min-width: 553px)  {
  
     body {
-        background-color: rgb(98, 0, 255); 
+        /* background-color: rgb(98, 0, 255);  */
     }
     
     .unita-barra-laterale:hover {
@@ -41,6 +41,37 @@
 .sotto-immagini {
   filter: brightness(60%);
   
+}
+
+
+#barra-superiore a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  font-size: 1.3em;
+  padding: 9px 20px 9px 20px;
+  border: 2px solid white;
+  border-radius: 18px;
+  margin-right: 5px;
+  white-space: nowrap;
+}
+
+.b1-ba-in-container.secondo i:hover {
+  font-size: 1.6em;
+  color: rgb(255, 255, 255);
+}
+
+.bl2-ba-in-sopra i:hover {
+  font-size: 1.8em;
+ 
+}
+
+#play-bi:hover {
+font-size: 1.6em;
+}
+
+.blocco3-barra-inferiore i:hover {
+  font-size: 1.3em;
 }
 
 
