@@ -363,3 +363,50 @@ font-size: 1.4em;
   margin-right: 20px;
   margin-top: 10px;
 }
+
+/* SUONATI DI RECENTE  */
+
+.suonati-di-recente {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  /* background-color: aqua; */
+}
+
+.album-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.unita-su-re {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: yellow; */
+  margin: 15px 15px 15px 0px;
+}
+
+.unita-su-re img {
+  width: 170px;
+}
+
+.immagine-album {
+  position: relative;
+}
+
+
+.titolo-unita-su-re {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-width: 160px;
+  text-align: center;
+}
+
+.sub-titolo-unita-su-re {
+  font-size: 0.7em;
+  color: gray;
+}

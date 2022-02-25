@@ -165,9 +165,59 @@
 
 
 
+        /* ANCHOR CORPO */
 
+        /* SUONATI DI RECENTE  */
+        .album-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.unita-su-re {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: yellow; */
+  
+}
 
+.unita-su-re img {
+  width: 120px;
+}
 
+.titolo-unita-su-re {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-width: 110px;
+  text-align: center;
+}
+
+.sub-titolo-unita-su-re {
+  font-size: 0.7em;
+  color: gray;
+}
+
+.immagine-album i {
+  display: none;
+}
+
+.hover-immagini {
+  display: none;
+}
+
+.hover-immagini:hover {
+  display: none;
+}
+
+.sotto-immagini {
+  filter: brightness(100%);
+  
+}
 
 
 
